@@ -1,0 +1,219 @@
+/* Estilos de el sitio web*/
+/* Primero voy a retirar los efectos de margen y relleno estándares  del navegador*/
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Poiret One', cursive;
+}
+
+/* Color de fondo de toda la página*/
+.container{
+	width: 100vw;
+	height: 100vh;
+
+	
+    
+}
+
+
+/*header con imagen y logo*/
+
+.header{
+	background-image: url(header2.jpg);
+	background-position: center;
+	background-size: 100vw;
+	filter: grayscale(50%);
+	margin-bottom: 1em;
+	width: 100vw;
+	max-height: 30vh;
+	min-height: 15vh;
+	background-repeat:no-repeat ;
+
+}
+
+.header h2{
+	font-family: 'Poiret One', cursive;
+	font-size: 3vw;
+	font-weight: medium;
+	letter-spacing: 3vw;
+	text-align: center;
+	color: #FFFEB8;
+}
+
+
+.header img{
+	max-width: 30vw;
+	height: auto;
+	display: block;
+	margin-right: 60vw;
+	margin-left: 1em;
+	filter: brightness(50);
+	
+}
+
+/*Flex-box con vinculos*/
+ 
+.flex-container{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding: 1vw;
+	background-color: white;
+}
+
+.flex-container h2{
+	font-family: 'Poiret One', cursive;
+	font-size: 80%;
+	font-weight: bold;
+	letter-spacing: 0.8em;
+	color: #1D6585;
+
+}
+
+.flex-container h3{
+	font-family: 'Poiret One', cursive;
+	font-weight: bold;
+	font-size: 80%;
+	letter-spacing: 0.5em;
+	color: #1D6585;
+
+}
+
+/*Item con hover y transformacion*/
+
+.flex-item{
+   transition: all 400ms;
+}
+
+.flex-item:hover{
+	transform: scale(1.01);
+}
+
+
+
+/* seccion con titulo, subtitulo y un parrafo*/
+
+.section{
+
+}
+
+
+
+
+.sobreclases{
+	width: 100vw;
+	background-color: white;
+	float: left;
+
+
+}
+
+
+
+
+
+.sobreclases h2{
+	font-family: 'Poiret One', cursive;
+    font-size: 2em;
+    margin: 1em;
+	text-align: center;
+	color: #1D6585;
+}
+
+.sobreclases p{
+    font-size: 1.4em;
+    margin: 1em;
+    text-align: center;
+    color: #1D6585;
+}
+
+
+
+
+
+
+/*social-bar*/
+
+.contacto{
+	background-color:#F2E9E6;
+	margin: 0.3rem;
+
+}
+
+.contacto h3{
+	font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+    margin: 0.5em;
+    padding: 0.5em;
+    text-align: center;
+    color: #1D6585;
+    
+}
+
+
+.contacto img{
+	display: inline-block;
+	width: 3rem;
+	height: auto;
+	margin: 0.7rem;
+	margin-left: 30vw;
+	opacity: 0.7;
+
+}	
+
+/*redes sociales*/
+.redes{
+	background-color: #D2EDFE;
+	margin: 0.3rem;
+
+}
+.redes h3{
+	font-family: 'Poiret One', cursive;
+    font-size: 1.5em;
+   
+    padding: 0.5em;
+    text-align: center;
+    color: #1D6585;
+    
+}
+
+
+
+.redes img{
+	display: inline-block;
+	width: 3rem;
+	height: auto;
+	margin: 0.7rem;
+	margin-left: 30vw;
+	opacity: 0.7;
+}	
+
+
+
+
+/*footer*/
+
+  .footer{
+    color: black;
+ 	background-color:  #D1A558;
+    text-align: center;
+	margin: 1rem;
+	width: 98vw;
+	height: 20vh;
+	list-style: none;
+	font-family: 'Poiret One', cursive;
+
+}
+
+
+
+.footer img{
+	max-width: 5vw;
+    margin-top: 1rem;
+}
+
+ .footer h3{
+	font-size: 1em;
+	padding: 1em;
+}
